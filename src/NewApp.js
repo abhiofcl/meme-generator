@@ -1,6 +1,6 @@
 import React from "react";
-import "./App.css";
-class App extends React.Component {
+
+class NewApp extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -10,7 +10,6 @@ class App extends React.Component {
   }
   componentDidMount() {
     this.fetchMemes();
-    console.log("ok");
   }
   fetchMemes = () => {
     let url = "https://www.reddit.com/r/memes.json";
@@ -54,4 +53,4 @@ class App extends React.Component {
     );
   }
 }
-export default App;
+export default NewApp;
