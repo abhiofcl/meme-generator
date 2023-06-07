@@ -2,6 +2,8 @@
 
 A simple meme generator app made using Reddit API for memes from r/memes.
 It have a Load More button to make use of the paginated API to load more memes.
+Since react components gets rendered/mounted twice due to Strict mode, first set of memes may have duplicates.But remaining doesn't have this issue.
+
 
 ## Available Scripts
 
